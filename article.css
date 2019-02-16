@@ -1,0 +1,9 @@
+div.WordSection1 {
+  column-width: 20em;
+}
+div.WordSection1 p:first-child, div.WordSection1 p:nth-child(2) {
+  column-span: all;
+}
+div.WordSection1 p:first-child span:nth-child(2) {
+  display: block;
+}
